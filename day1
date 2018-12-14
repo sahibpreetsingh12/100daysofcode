@@ -8,7 +8,7 @@ verySmallNumber = 1e-14 # That's 1×10⁻¹⁴ = 0.00000000000001
 # We'll then go through the vectors one at a time and set them to be orthogonal
 # to all the vectors that came before it. Before normalising.
 # Follow the instructions inside the function at each comment.
-# You will be told where to add code to complete the function.
+
 def gsBasis4(A) :
     B = np.array(A, dtype=np.float_) # Make B as a copy of A, since we're going to alter it's values.
     # The zeroth column is easy, since it has no other vectors to make it normal to.
